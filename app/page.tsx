@@ -1,7 +1,12 @@
 'use client';
 
+import TodoApp from "@/components/TodoApp";
+
 export default function Home() {
   return (
-    <div></div>
+    <div>
+      <TodoApp />
+
+    </div>
   );
 }
